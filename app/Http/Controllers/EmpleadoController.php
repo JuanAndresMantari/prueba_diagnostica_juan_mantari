@@ -42,16 +42,10 @@ class EmpleadoController extends Controller
         //     ->orWhere('local','LIKE','%'.$texto.'%')
         //     ->orderBy('nombres','asc')
         //     ->paginate(10);
-
-            
         // }
 
             return view('empleado.index',compact('empleados','texto','fecha1','fecha2'));
 
-        
-        // 
-        // 
-        
         // $empleados = Empleado::paginate();
         // $users = $empleados->get();
 
