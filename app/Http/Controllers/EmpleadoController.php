@@ -35,7 +35,6 @@ class EmpleadoController extends Controller
             ->paginate(10);
 
         // }elseif ($fecha1 && $fecha2 === '') {
-
         //     $empleados = DB::table('empleados')
         //     ->select('id','nombres','apellidos','dni','correo','fecha_nacimiento','area','cargo','local','fecha_inicio','fecha_fin','tipo_contrato')
         //     ->where('area','LIKE','%'.$texto.'%')
